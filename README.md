@@ -1,4 +1,7 @@
 # ACE080BCT_75-78-94
+## GROUP: WILL OF D(DATA)
+
+- **Roll Numbers: ACE080BCT075, ACE080BCT078,ACE080BCT094**
 
 # Advanced Logistic Regression for Loan Approval Prediction
 
@@ -49,20 +52,6 @@ python logistic_regression_advanced.py
 ```
 3. The model will output accuracy, confusion matrix, and a ROC curve.
 
-### **Using the Saved Model**
-If you want to use the trained model for predictions without retraining:
-```python
-import joblib
-import numpy as np
-
-# Load the model
-model = joblib.load("logistic_regression_advanced.pkl")
-
-# Example input (scaled appropriately before usage)
-new_data = np.array([[8000, 700, 15000, 0.3]])  # Income, Credit Score, Loan Amount, Debt-to-Income Ratio
-prediction = model.predict(new_data)
-print("Loan Approval Status:", "Approved" if prediction[0] == 1 else "Not Approved")
-```
 
 ## Repository Structure
 ```
@@ -72,9 +61,7 @@ print("Loan Approval Status:", "Approved" if prediction[0] == 1 else "Not Approv
 ├── README.md  # Project documentation
 ```
 
-## Contributors
-- **Will of D(Data)**
-- **Roll Numbers: ACE080BCT075, ACE080BCT078,ACE080BCT094**
+
 
 ## License
 This project is for educational purposes only.
