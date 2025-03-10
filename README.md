@@ -61,6 +61,22 @@ python logistic_regression_advanced.py
 ├── README.md  # Project documentation
 ```
 
+# References
+
+## Datasets & Data Processing
+1. Scikit-Learn: `StandardScaler()` documentation - [https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)
+2. Polynomial Features explanation - [https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html)
+
+## Model Training & Evaluation
+3. Logistic Regression in Scikit-Learn - [https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+4. GridSearchCV for hyperparameter tuning - [https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
+
+## Performance Metrics & Visualization
+5. ROC Curve explanation - [https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html](https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html)
+6. Confusion Matrix and Classification Report - [https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html)
+
+## Model Deployment & Saving
+7. Using `joblib` for model persistence - [https://joblib.readthedocs.io/en/latest/](https://joblib.readthedocs.io/en/latest/)
 
 
 ## License
